@@ -2,4 +2,4 @@ FROM almalinux:9
 RUN dnf install nginx -y
 USER useradd roboshop
 CMD ["sleep", "10000"]
-WORKDIR cd /tmp
+WORKDIR /tmp
